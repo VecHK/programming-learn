@@ -1,4 +1,4 @@
-import isLastWeek from "./isLastWeek"
+import isLastWeek from "./"
 
 const WEEK_DAY = [
   'monday', 'tuesday', 'wednesday',
