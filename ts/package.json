@@ -1,0 +1,24 @@
+{
+  "name": "programming-learn-ts",
+  "version": "1.0.0",
+  "author": "vec",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "preset": "ts-jest/presets/default-esm"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
